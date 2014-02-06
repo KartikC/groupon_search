@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="favicon.ico" >
+        <title>Deal Finder</title>
+    </head>
+    <body>
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    	<script type="text/javascript" src="script.js"></script>
+
+		<div id = "locator">
+			<h1>Deal Finder</h1>
+			<a id = "detect" title="detect location" href="#">detect location</a><br />
+			or<br />
+			<input id = "address" placeholder="Enter Address..."/>
+		</div>
+		
+		<div id = "info">
+			location: <span id="division">none</span><br />
+			<span id="numDeals">0</span> Deals!
+		</div>
+		
+		<div id ="container">
+			<input id = "query" placeholder="Search..."/><br />
+			<div id = "results">
+				<table id="resultsTable">
+				</table>
+			</div>
+		</div>
+		
+		<script>
+		initialize();
+		</script>
+    </body>
+</html>

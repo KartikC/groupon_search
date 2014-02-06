@@ -1,0 +1,39 @@
+#locator {
+	background:#80FF88;
+	margin: auto;
+	text-align: center;
+}
+
+#detect {
+	font-size:2em;
+}
+
+#info{
+    text-align:center;
+	background:#67CC6D;
+}
+
+#container{
+    text-align:center;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#results {
+	text-align:left;
+}
+
+#resultsTable{
+	width: 700px;
+}
+
+.distance {
+	text-align:right;
+}
+
+h1 {font-size:3em;font-family: Verdana,sans-serif;padding:0px;margin:0px;}
+div {padding:10px;}
+html {overflow-y:scroll;}
+body {padding:10px;margin-left:5%;margin-right:5%;font-family:Arial,Helvetica,sans-serif;background:#CDFFD0;}
+input {border:solid 1px #667F68;font-size:20px;border-radius:5px;padding:2px;outline:none;}
